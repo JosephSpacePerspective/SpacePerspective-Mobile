@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="15dp"
+    android:layout_marginBottom="2dp"
+    android:fillViewport="true"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:id="@+id/container"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/power"
+        android:background="@drawable/image_view0"
+        android:id="@+id/power" />
+
+    <Button
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thermal"
+        android:background="@drawable/image_view1"
+        android:id="@+id/thermal" />
+
+    <Button
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pressure"
+        android:background="@drawable/image_view2"
+        android:id="@+id/pressure" />
+
+    <Button
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/comms"
+        android:background="@drawable/image_view3"
+        android:id="@+id/comms" />
+
+    <Button
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descent"
+        android:background="@drawable/image_view4"
+        android:id="@+id/descent" />
+</LinearLayout>
+
+</HorizontalScrollView>
